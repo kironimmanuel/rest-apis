@@ -16,9 +16,9 @@ Separated by &
 verifiedPurchase: Boolean
 # mongoose select() method to filter the response
 fields: e.g. fields=name
-# Limit 50
+# Limit 20
 limit: limit=
-# Select a page if limit is less than 50
+# Select a page if limit is less than 20
 page: page=
 sort: e.g. sort=-name
 numericFilters: e.g. numericFilters=rating>=4.5
