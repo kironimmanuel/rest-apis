@@ -10,8 +10,9 @@ JSON web token (Lifetime 30 days)
 All Keys Generator -> Encryption Key -> 256-bit
 
 #### In Development
-
+```sh
 nodemon -> npm run dev
+```
 
 #### Docgen with Postman documentation (for Windows)
 
