@@ -1,0 +1,168 @@
+[
+  {
+    "id": 1,
+    "name": "sassy chair",
+    "price": 75,
+    "featured": true,
+    "company": "munchkin",
+    "rating": 4.2,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639457/furniture-store/product-19_mruv8i.jpg"
+  },
+  {
+    "id": 2,
+    "name": "incredible bed",
+    "price": 399,
+    "company": "ashley",
+    "rating": 5,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639455/furniture-store/product-16_fjkuhf.jpg"
+  },
+  {
+    "id": 3,
+    "name": "asleep armchair",
+    "price": 79,
+    "company": "williams",
+    "rating": 4.8,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639455/furniture-store/product-23_uocvdr.jpg"
+  },
+  {
+    "id": 4,
+    "name": "albany sideboard",
+    "price": 285,
+    "featured": true,
+    "company": "williams",
+    "rating": 4.9,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639450/furniture-store/product-5_ka8h8v.jpg"
+  },
+  {
+    "id": 5,
+    "name": "towering sofa",
+    "price": 599,
+    "company": "ashley",
+    "rating": 4.1,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639450/furniture-store/product-15_ibbagd.jpg"
+  },
+  {
+    "id": 6,
+    "name": "mature sofa",
+    "price": 255,
+    "featured": true,
+    "company": "ikea",
+    "rating": 4.5,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639450/furniture-store/product-21_oqs1al.jpg"
+  },
+  {
+    "id": 7,
+    "name": "spectacular sofa",
+    "price": 170,
+    "featured": true,
+    "company": "ashley",
+    "rating": 2.5,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639447/furniture-store/product-14_nnq1v6.jpg"
+  },
+  {
+    "id": 8,
+    "name": "sweet sofa",
+    "price": 145,
+    "company": "williams",
+    "rating": 4.55,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639446/furniture-store/product-22_rnjezw.jpg"
+  },
+  {
+    "id": 9,
+    "name": "polite table",
+    "price": 230,
+    "company": "ikea",
+    "rating": 4.1,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639446/furniture-store/product-11_s5tkcj.jpg"
+  },
+  {
+    "id": 10,
+    "name": "woozy desk",
+    "price": 310,
+    "company": "gambino",
+    "rating": 4,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639444/furniture-store/product-17_wugq9v.jpg"
+  },
+  {
+    "id": 11,
+    "name": "spooky chair",
+    "price": 89,
+    "featured": true,
+    "company": "ikea",
+    "rating": 4.8,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639443/furniture-store/product-20_eb4vea.jpg"
+  },
+  {
+    "id": 12,
+    "name": "honorable sofa",
+    "price": 200,
+    "company": "ikea",
+    "rating": 3.7,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639442/furniture-store/product-18_rkf6qf.jpg"
+  },
+  {
+    "id": 13,
+    "name": "rainy sofa",
+    "price": 435,
+    "company": "williams",
+    "rating": 5,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639440/furniture-store/product-8_dqrngr.jpg"
+  },
+  {
+    "id": 14,
+    "name": "striped wardrobe",
+    "price": 679,
+    "company": "ashley",
+    "rating": 2.1,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639440/furniture-store/product-4_lrqcvw.jpg"
+  },
+  {
+    "id": 15,
+    "name": "functional bed",
+    "price": 450,
+    "company": "gambino",
+    "rating": 5,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639436/furniture-store/product-2_noiuxc.jpg"
+  },
+  {
+    "id": 16,
+    "name": "financial bed",
+    "price": 3415,
+    "company": "williams",
+    "rating": 3,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639436/furniture-store/product-7_zp3akv.jpg"
+  },
+  {
+    "id": 17,
+    "name": "curious sideboard",
+    "price": 255,
+    "featured": true,
+    "company": "ikea",
+    "rating": 3.9,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639434/furniture-store/product-6_kzyxab.jpg"
+  },
+  {
+    "id": 18,
+    "name": "questionable bed",
+    "price": 400,
+    "company": "ikea",
+    "rating": 4.9,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639433/furniture-store/product-1_e2dblv.jpg"
+  },
+  {
+    "id": 19,
+    "name": "great sofa",
+    "price": 539,
+    "company": "gambino",
+    "rating": 3.7,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639432/furniture-store/product-12_juldsp.jpg"
+  },
+  {
+    "id": 20,
+    "name": "momentous bed",
+    "price": 399,
+    "company": "munchkin",
+    "rating": 4,
+    "image": "https://res.cloudinary.com/de65hz2rz/image/upload/v1659639428/furniture-store/product-3_vbqxem.jpg"
+  }
+]
