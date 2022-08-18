@@ -1,4 +1,6 @@
-# Contacts API (GET, POST, PATCH, DELETE)
+# Contacts API
+
+### (GET, POST, PATCH, DELETE)
 
 ##### For implementing a contact database
 
