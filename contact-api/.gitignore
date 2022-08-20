@@ -1,3 +1,5 @@
+# dependencies
 /node_modules
+# misc
 /docs.json
 .env

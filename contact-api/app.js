@@ -47,12 +47,13 @@ app.use(errorHandlerMiddleware)
 
 const port = process.env.PORT || 3000
 
-// Spin up the server 📡
 const start = async () => {
   try {
     await connectDB(process.env.MONGO_URI)
     // Invoke database connection and pass the env
-    app.listen(port, () => console.log(`Server is listening on port ${port}`))
+    app.listen(port, () =>
+      console.log(`Server is listening on port ${port} 📡`)
+    )
   } catch (error) {
     console.log(error)
   }

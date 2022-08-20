@@ -8397,243 +8397,60 @@
     <div class=container-fluid>
         <div class=row>
             <div class="col-md-12 collection-intro">
-                <h3>Contacts-API</h3>
+                <h3>Contact API Documentation</h3>
                 <p>
+                   API for implementing a contact database
             </div>
             <div class=col-md-12>
                 <div class=col-md-3>
                     <ul>
-                        <li><strong><a href=#Ungrouped>Ungrouped</a></strong>
+                        <li><strong><a href=#User>User</a></strong>
                             <ul>
                                 <li><a class=endpoint_menu
-                                        href=#jump-Ungrouped-DeleteContact>Delete
-                                        Contact</a>
+                                        href=#jump-User-RegisterUser>Register
+                                        User</a>
                                 <li><a class=endpoint_menu
-                                        href=#jump-Ungrouped-GetAllContacts>Get
+                                        href=#jump-User-LoginUser>Login User</a>
+                            </ul>
+                        <li><strong><a href=#Contact>Contact</a></strong>
+                            <ul>
+                                <li><a class=endpoint_menu
+                                        href=#jump-Contact-GetAllContacts>Get
                                         All Contacts</a>
                                 <li><a class=endpoint_menu
-                                        href=#jump-Ungrouped-GetSingleContact>Get
+                                        href=#jump-Contact-GetSingleContact>Get
                                         Single Contact</a>
                                 <li><a class=endpoint_menu
-                                        href=#jump-Ungrouped-UpdateContact>Update
+                                        href=#jump-Contact-CreateContact>Create
                                         Contact</a>
                                 <li><a class=endpoint_menu
-                                        href=#jump-Ungrouped-CreateContact>Create
+                                        href=#jump-Contact-UpdateContact>Update
                                         Contact</a>
                                 <li><a class=endpoint_menu
-                                        href=#jump-Ungrouped-LoginUser>Login
-                                        User</a>
-                                <li><a class=endpoint_menu
-                                        href=#jump-Ungrouped-RegisterUser>Register
-                                        User</a>
+                                        href=#jump-Contact-DeleteContact>Delete
+                                        Contact</a>
                             </ul>
                     </ul>
                 </div>
                 <div class=col-md-9>
                     <div class="panel panel-default">
                         <div class=panel-heading>
-                            <h3 class=panel-title id=Ungrouped>Ungrouped
-                                <span class=badge>7</span>
+                            <h3 class=panel-title id=User>User
+                                <span class=badge>2</span>
                             </h3>
                         </div>
                         <div class=panel-body>
                             <p>
                             <div class=request-item>
-                                <div class=panel-group id=accordion-Ungrouped>
-                                    <div class="panel panel-danger"
-                                        id=jump-Ungrouped-DeleteContact>
-                                        <div class=panel-heading><small
-                                                class="pull-right text-muted"></small><a
-                                                class=text-danger
-                                                data-toggle=collapse
-                                                data-parent=#accordion-Ungrouped
-                                                href=#collapse-Ungrouped-DeleteContact>
-                                                <h4 class=panel-title><span
-                                                        class="glyphicon glyphicon-plus"></span><strong>Delete
-                                                        Contact</strong>
-                                                    &nbsp;|&nbsp;
-                                                    <strong
-                                                        class="request-method border-danger">DELETE</strong>
-                                                    &nbsp;
-                                                    {{URL}}/contacts//{id}
-                                                </h4>
-                                            </a></div>
-                                        <div id=collapse-Ungrouped-DeleteContact
-                                            class="panel-collapse collapse">
-                                            <div class=panel-body></div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-info"
-                                        id=jump-Ungrouped-GetAllContacts>
-                                        <div class=panel-heading><small
-                                                class="pull-right text-muted"></small><a
-                                                class=text-info
-                                                data-toggle=collapse
-                                                data-parent=#accordion-Ungrouped
-                                                href=#collapse-Ungrouped-GetAllContacts>
-                                                <h4 class=panel-title><span
-                                                        class="glyphicon glyphicon-plus"></span><strong>Get
-                                                        All Contacts</strong>
-                                                    &nbsp;|&nbsp;
-                                                    <strong
-                                                        class="request-method border-info">GET</strong>
-                                                    &nbsp;
-                                                    {{URL}}/contacts
-                                                </h4>
-                                            </a></div>
-                                        <div id=collapse-Ungrouped-GetAllContacts
-                                            class="panel-collapse collapse">
-                                            <div class=panel-body></div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-info"
-                                        id=jump-Ungrouped-GetSingleContact>
-                                        <div class=panel-heading><small
-                                                class="pull-right text-muted"></small><a
-                                                class=text-info
-                                                data-toggle=collapse
-                                                data-parent=#accordion-Ungrouped
-                                                href=#collapse-Ungrouped-GetSingleContact>
-                                                <h4 class=panel-title><span
-                                                        class="glyphicon glyphicon-plus"></span><strong>Get
-                                                        Single Contact</strong>
-                                                    &nbsp;|&nbsp;
-                                                    <strong
-                                                        class="request-method border-info">GET</strong>
-                                                    &nbsp;
-                                                    {{URL}}/contacts/{id}
-                                                </h4>
-                                            </a></div>
-                                        <div id=collapse-Ungrouped-GetSingleContact
-                                            class="panel-collapse collapse">
-                                            <div class=panel-body></div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-warning"
-                                        id=jump-Ungrouped-UpdateContact>
-                                        <div class=panel-heading><small
-                                                class="pull-right text-muted">raw</small>
-                                            <a class=text-warning
-                                                data-toggle=collapse
-                                                data-parent=#accordion-Ungrouped
-                                                href=#collapse-Ungrouped-UpdateContact>
-                                                <h4 class=panel-title><span
-                                                        class="glyphicon glyphicon-plus"></span><strong>Update
-                                                        Contact</strong>
-                                                    &nbsp;|&nbsp;
-                                                    <strong
-                                                        class="request-method border-warning">PATCH</strong>
-                                                    &nbsp;
-                                                    {{URL}}/contacts//{id}
-                                                </h4>
-                                            </a>
-                                        </div>
-                                        <div id=collapse-Ungrouped-UpdateContact
-                                            class="panel-collapse collapse">
-                                            <div class=panel-body>
-                                                <h5 class="label label-primary">
-                                                    Body</h5><span
-                                                    class=resp-prettyprint>{
-                                                    &#34;name&#34;: &#34;update
-                                                    firstname update
-                                                    lastname&#34;,
-                                                    &#34;company&#34; :
-                                                    &#34;update company&#34;,
-                                                    &#34;position&#34; :
-                                                    &#34;backend developer&#34;,
-                                                    &#34;phone&#34; :
-                                                    &#34;0387111111&#34;,
-                                                    &#34;email&#34; :
-                                                    &#34;test@test.com&#34;
-                                                    }</span>
-                                                <div class=clearfix></div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class=panel-group id=accordion-User>
                                     <div class="panel panel-success"
-                                        id=jump-Ungrouped-CreateContact>
+                                        id=jump-User-RegisterUser>
                                         <div class=panel-heading><small
                                                 class="pull-right text-muted">raw</small>
                                             <a class=text-success
                                                 data-toggle=collapse
-                                                data-parent=#accordion-Ungrouped
-                                                href=#collapse-Ungrouped-CreateContact>
-                                                <h4 class=panel-title><span
-                                                        class="glyphicon glyphicon-plus"></span><strong>Create
-                                                        Contact</strong>
-                                                    &nbsp;|&nbsp;
-                                                    <strong
-                                                        class="request-method border-success">POST</strong>
-                                                    &nbsp;
-                                                    {{URL}}/contacts
-                                                </h4>
-                                            </a>
-                                        </div>
-                                        <div id=collapse-Ungrouped-CreateContact
-                                            class="panel-collapse collapse">
-                                            <div class=panel-body>
-                                                <h5 class="label label-primary">
-                                                    Body</h5><span
-                                                    class=resp-prettyprint>{
-                                                    &#34;name&#34;:
-                                                    &#34;firstname
-                                                    lastname&#34;,
-                                                    &#34;company&#34; :
-                                                    &#34;company&#34;,
-                                                    &#34;position&#34; :
-                                                    &#34;frontend
-                                                    developer&#34;,
-                                                    &#34;phone&#34; :
-                                                    &#34;038730000&#34;,
-                                                    &#34;email&#34; :
-                                                    &#34;test@test.com&#34;
-                                                    }</span>
-                                                <div class=clearfix></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-success"
-                                        id=jump-Ungrouped-LoginUser>
-                                        <div class=panel-heading><small
-                                                class="pull-right text-muted">raw</small>
-                                            <a class=text-success
-                                                data-toggle=collapse
-                                                data-parent=#accordion-Ungrouped
-                                                href=#collapse-Ungrouped-LoginUser>
-                                                <h4 class=panel-title><span
-                                                        class="glyphicon glyphicon-plus"></span><strong>Login
-                                                        User</strong>
-                                                    &nbsp;|&nbsp;
-                                                    <strong
-                                                        class="request-method border-success">POST</strong>
-                                                    &nbsp;
-                                                    {{URL}}/auth/login
-                                                </h4>
-                                            </a>
-                                        </div>
-                                        <div id=collapse-Ungrouped-LoginUser
-                                            class="panel-collapse collapse">
-                                            <div class=panel-body>
-                                                <h5 class="label label-primary">
-                                                    Body</h5><span
-                                                    class=resp-prettyprint>{
-                                                    &#34;email&#34;:
-                                                    &#34;test@test.com&#34;,
-                                                    &#34;password&#34;:
-                                                    &#34;password&#34;
-                                                    }</span>
-                                                <div class=clearfix></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-success"
-                                        id=jump-Ungrouped-RegisterUser>
-                                        <div class=panel-heading><small
-                                                class="pull-right text-muted">raw</small>
-                                            <a class=text-success
-                                                data-toggle=collapse
-                                                data-parent=#accordion-Ungrouped
-                                                href=#collapse-Ungrouped-RegisterUser>
+                                                data-parent=#accordion-User
+                                                href=#collapse-User-RegisterUser>
                                                 <h4 class=panel-title><span
                                                         class="glyphicon glyphicon-plus"></span><strong>Register
                                                         User</strong>
@@ -8641,25 +8458,223 @@
                                                     <strong
                                                         class="request-method border-success">POST</strong>
                                                     &nbsp;
-                                                    {{URL}}/auth/register
+                                                    https://kb-contacts-api.herokuapp.com/auth/register
                                                 </h4>
                                             </a>
                                         </div>
-                                        <div id=collapse-Ungrouped-RegisterUser
+                                        <div id=collapse-User-RegisterUser
                                             class="panel-collapse collapse">
                                             <div class=panel-body>
                                                 <h5 class="label label-primary">
                                                     Body</h5><span
                                                     class=resp-prettyprint>{
-                                                    &#34;name&#34;:
-                                                    &#34;username&#34;,
+                                                    &#34;name&#34;: &#34;John F.
+                                                    Kneeland&#34;,
                                                     &#34;email&#34;:
-                                                    &#34;test@test.com&#34;,
+                                                    &#34;JohnFKneeland@einrot.com&#34;,
                                                     &#34;password&#34;:
-                                                    &#34;password&#34;
+                                                    &#34;auGai3dah&#34;
                                                     }</span>
                                                 <div class=clearfix></div>
                                             </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-success"
+                                        id=jump-User-LoginUser>
+                                        <div class=panel-heading><small
+                                                class="pull-right text-muted">raw</small>
+                                            <a class=text-success
+                                                data-toggle=collapse
+                                                data-parent=#accordion-User
+                                                href=#collapse-User-LoginUser>
+                                                <h4 class=panel-title><span
+                                                        class="glyphicon glyphicon-plus"></span><strong>Login
+                                                        User</strong>
+                                                    &nbsp;|&nbsp;
+                                                    <strong
+                                                        class="request-method border-success">POST</strong>
+                                                    &nbsp;
+                                                    https://kb-contacts-api.herokuapp.com/auth/login
+                                                </h4>
+                                            </a>
+                                        </div>
+                                        <div id=collapse-User-LoginUser
+                                            class="panel-collapse collapse">
+                                            <div class=panel-body>
+                                                <h5 class="label label-primary">
+                                                    Body</h5><span
+                                                    class=resp-prettyprint>{
+                                                    &#34;email&#34;:
+                                                    &#34;JohnFKneeland@einrot.com&#34;,
+                                                    &#34;password&#34;:
+                                                    &#34;auGai3dah&#34;
+                                                    }</span>
+                                                <div class=clearfix></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class=panel-heading>
+                            <h3 class=panel-title id=Contact>Contact
+                                <span class=badge>5</span>
+                            </h3>
+                        </div>
+                        <div class=panel-body>
+                            <p>
+                            <div class=request-item>
+                                <div class=panel-group id=accordion-Contact>
+                                    <div class="panel panel-info"
+                                        id=jump-Contact-GetAllContacts>
+                                        <div class=panel-heading><small
+                                                class="pull-right text-muted"></small><a
+                                                class=text-info
+                                                data-toggle=collapse
+                                                data-parent=#accordion-Contact
+                                                href=#collapse-Contact-GetAllContacts>
+                                                <h4 class=panel-title><span
+                                                        class="glyphicon glyphicon-plus"></span><strong>Get
+                                                        All Contacts</strong>
+                                                    &nbsp;|&nbsp;
+                                                    <strong
+                                                        class="request-method border-info">GET</strong>
+                                                    &nbsp;
+                                                    https://kb-contacts-api.herokuapp.com/contacts
+                                                </h4>
+                                            </a></div>
+                                        <div id=collapse-Contact-GetAllContacts
+                                            class="panel-collapse collapse">
+                                            <div class=panel-body></div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-info"
+                                        id=jump-Contact-GetSingleContact>
+                                        <div class=panel-heading><small
+                                                class="pull-right text-muted"></small><a
+                                                class=text-info
+                                                data-toggle=collapse
+                                                data-parent=#accordion-Contact
+                                                href=#collapse-Contact-GetSingleContact>
+                                                <h4 class=panel-title><span
+                                                        class="glyphicon glyphicon-plus"></span><strong>Get
+                                                        Single Contact</strong>
+                                                    &nbsp;|&nbsp;
+                                                    <strong
+                                                        class="request-method border-info">GET</strong>
+                                                    &nbsp;
+                                                    https://kb-contacts-api.herokuapp.com/contacts/{id}
+                                                </h4>
+                                            </a></div>
+                                        <div id=collapse-Contact-GetSingleContact
+                                            class="panel-collapse collapse">
+                                            <div class=panel-body></div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-success"
+                                        id=jump-Contact-CreateContact>
+                                        <div class=panel-heading><small
+                                                class="pull-right text-muted">raw</small>
+                                            <a class=text-success
+                                                data-toggle=collapse
+                                                data-parent=#accordion-Contact
+                                                href=#collapse-Contact-CreateContact>
+                                                <h4 class=panel-title><span
+                                                        class="glyphicon glyphicon-plus"></span><strong>Create
+                                                        Contact</strong>
+                                                    &nbsp;|&nbsp;
+                                                    <strong
+                                                        class="request-method border-success">POST</strong>
+                                                    &nbsp;
+                                                    https://kb-contacts-api.herokuapp.com/contacts
+                                                </h4>
+                                            </a>
+                                        </div>
+                                        <div id=collapse-Contact-CreateContact
+                                            class="panel-collapse collapse">
+                                            <div class=panel-body>
+                                                <h5 class="label label-primary">
+                                                    Body</h5><span
+                                                    class=resp-prettyprint>{
+                                                    &#34;name&#34;: &#34;Glenna
+                                                    D. Alderman&#34;,
+                                                    &#34;company&#34; :
+                                                    &#34;Saturday Matinee&#34;,
+                                                    &#34;position&#34; :
+                                                    &#34;Frontend
+                                                    Developer&#34;,
+                                                    &#34;phone&#34; :
+                                                    &#34;6504190398&#34;,
+                                                    &#34;email&#34; :
+                                                    &#34;GlennaDAlderman@cuvox.de&#34;
+                                                    }</span>
+                                                <div class=clearfix></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-warning"
+                                        id=jump-Contact-UpdateContact>
+                                        <div class=panel-heading><small
+                                                class="pull-right text-muted">raw</small>
+                                            <a class=text-warning
+                                                data-toggle=collapse
+                                                data-parent=#accordion-Contact
+                                                href=#collapse-Contact-UpdateContact>
+                                                <h4 class=panel-title><span
+                                                        class="glyphicon glyphicon-plus"></span><strong>Update
+                                                        Contact</strong>
+                                                    &nbsp;|&nbsp;
+                                                    <strong
+                                                        class="request-method border-warning">PATCH</strong>
+                                                    &nbsp;
+                                                    https://kb-contacts-api.herokuapp.com/contacts//{id}
+                                                </h4>
+                                            </a>
+                                        </div>
+                                        <div id=collapse-Contact-UpdateContact
+                                            class="panel-collapse collapse">
+                                            <div class=panel-body>
+                                                <h5 class="label label-primary">
+                                                    Body</h5><span
+                                                    class=resp-prettyprint>{
+                                                    &#34;name&#34;: &#34;Glenna
+                                                    D. Alderman&#34;,
+                                                    &#34;company&#34; :
+                                                    &#34;System Star&#34;,
+                                                    &#34;position&#34; :
+                                                    &#34;Backend Developer&#34;,
+                                                    &#34;phone&#34; :
+                                                    &#34;6504190398&#34;,
+                                                    &#34;email&#34; :
+                                                    &#34;GlennaDAlderman@cuvox.de&#34;
+                                                    }</span>
+                                                <div class=clearfix></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-danger"
+                                        id=jump-Contact-DeleteContact>
+                                        <div class=panel-heading><small
+                                                class="pull-right text-muted"></small><a
+                                                class=text-danger
+                                                data-toggle=collapse
+                                                data-parent=#accordion-Contact
+                                                href=#collapse-Contact-DeleteContact>
+                                                <h4 class=panel-title><span
+                                                        class="glyphicon glyphicon-plus"></span><strong>Delete
+                                                        Contact</strong>
+                                                    &nbsp;|&nbsp;
+                                                    <strong
+                                                        class="request-method border-danger">DELETE</strong>
+                                                    &nbsp;
+                                                    https://kb-contacts-api.herokuapp.com/contacts//{id}
+                                                </h4>
+                                            </a></div>
+                                        <div id=collapse-Contact-DeleteContact
+                                            class="panel-collapse collapse">
+                                            <div class=panel-body></div>
                                         </div>
                                     </div>
                                 </div>
@@ -8675,7 +8690,7 @@
             <div class=container-fluid>
                 <div class="span12 text-center"><span data-toggle=tooltip
                         title="If the application help you, please feel free to give a star to the project in github. Your star inspire me to work more on open-source projects like this!">Generated
-                        at 2022-08-08 21:06:04 by <a
+                        at 2022-08-20 10:59:20 by <a
                             href=https://github.com/thedevsaddam/docgen
                             target=_blank class=text-muted>docgen</a></span>
                 </div>
