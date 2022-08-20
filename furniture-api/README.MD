@@ -13,7 +13,7 @@ npm run dev
 Separated by &
 
 ```sh
-verifiedPurchase: Boolean
+featured: e.g. featured=true
 # mongoose select() method to filter the response
 fields: e.g. fields=name
 # Limit 20
