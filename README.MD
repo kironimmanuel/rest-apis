@@ -2,7 +2,7 @@
 
 A variety of APIs written with Node.js, Express.js & mongoDB
 
-###### General Security Packages setup
+###### General security packages setup
 
 ```sh
 #app.js
