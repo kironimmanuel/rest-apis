@@ -13,7 +13,6 @@ const getAllReviews = async (req, res) => {
     queryObject.name = { $regex: name, $options: 'i' }
   }
 
-  // Numeric filters
   if (numericFilters) {
     // Convert the filters so mongoose can interpret
     const operatorMap = {
